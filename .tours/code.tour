@@ -1,0 +1,10 @@
+{
+  "title": "none",
+  "steps": [
+    {
+      "file": "public/index.html",
+      "line": 9,
+      "description": "Para crear una tabla de manera rápida escribir el siguiente código:\r\ntable#tablero>tr.fila*3>td.celda*3>button>img."
+    }
+  ]
+}

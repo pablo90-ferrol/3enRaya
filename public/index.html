@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+</head>
+<body>
+    <table id="tablero">
+        <tr class="fila">
+            <td class="celda"><button onclick="TresEnRaya.jugar(0,0)"><img id="c-0-0" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(0,1)"><img id="c-0-1" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(0,2)"><img id="c-0-2" src="img/hueco.svg" alt=""></button></td>
+        </tr>
+        <tr class="fila">
+            <td class="celda"><button onclick="TresEnRaya.jugar(1,0)"><img id="c-1-0" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(1,1)"><img id="c-1-1" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(1,2)"><img id="c-1-2" src="img/hueco.svg" alt=""></button></td>
+        </tr>
+        <tr class="fila">
+            <td class="celda"><button onclick="TresEnRaya.jugar(2,0)"><img id="c-2-0" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(2,1)"><img id="c-2-1" src="img/hueco.svg" alt=""></button></td>
+            <td class="celda"><button onclick="TresEnRaya.jugar(2,2)"><img id="c-2-2" src="img/hueco.svg" alt=""></button></td>
+        </tr>
+    </table>
+    <button onclick="TresEnRaya.reset()">Reiniciar Juego</button>
+    <script src="bundle.js"></script>
+</body>
+</html>
